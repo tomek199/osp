@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FbWidgetComponent
   ],
   imports: [
     BrowserModule,
