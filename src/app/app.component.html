@@ -1,21 +1,142 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<!-- Header -->
+<header class="bg-dark">
+  <div class="container py-3">
+    <div class="row text-light align-items-center text-right">
+      <div class="col-12 font-weight-bold lead">
+        <span class="mt-3">TELEFON ALARMOWY&nbsp;</span>
+        <span class="text-danger">(012)-270-68-88</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img id="osp-logo" class="mr-1" [src]="'assets/images/osp-logo.png'">
+      <span>OSP Jaśkowice</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto text-uppercase">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Strona główna
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Aktualności</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sprzęt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Zarząd</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Strażacy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- banner -->
+<header id="banner" class="bg-danger py-5 mb-5">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12 text-light">
+        <h1 class="display-2">OSP Jaśkowice</h1>
+        <p class="lead">Ochotnicza Straż Pożarna w Jaśkowicach</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-7 mb-5">
+      <h2>Witamy serdecznie na naszej stronie</h2>
+      <hr>
+      <h5>W ciągu ostatnich lat nasza jednostka została nie tylko zmodernizowana i wzbogacona o nowe pojazdy, ale co najważniejsze posiadamy najlepszą ekipę ratowniczą w naszej okolicy. Dowodzą temu zwycięstwa w zawodach strażackich przez kilka lat z rzędu.</h5>
+      <p class="lead">Chcielibyśmy zaprosić do odwiedzania naszej strony, na której będziemy prezentować nasze akcje gaśnicze, galerię zdjęć, oraz wiele innych ważnych dla nas spraw, którymi chcielibyśmy się z Wami podzielić.</p>
+      <img src="assets/images/building.jpg">
+    </div>
+    <div class="col-md-5 mb-5">
+      <h2>Aktualności</h2>
+      <hr>
+      <app-fb-widget></app-fb-widget>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-4 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-5">
+      <div class="card h-100">
+        <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+
+
+
+
+
+
+
 
 <router-outlet></router-outlet>
