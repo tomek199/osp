@@ -4,7 +4,7 @@
     <div class="row text-light align-items-center text-right">
       <div class="col-12 font-weight-bold lead">
         <span class="mt-3">TELEFON ALARMOWY&nbsp;</span>
-        <span class="text-danger">(012)-270-68-88</span>
+        <span class="text-danger">(12)-270-68-88</span>
       </div>
     </div>
   </div>
@@ -60,13 +60,49 @@
 </header>
 
 <!-- Page Content -->
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
+<router-outlet></router-outlet>
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    <div class="row text-white">
+      <div class="col-3">
+        <h3>
+          <img id="osp-logo-footer" class="mr-1" [src]="'assets/images/osp-logo.png'">
+          OSP
+        </h3>
+        <p>Copyright &copy; {{getYear()}} OSP Jaśkowice</p>
+        <p>All rights reserved</p>
+      </div>
+      <div class="col-3">
+        <h3>Kontakt</h3>
+        <p>ul. Krakowska 32</p>
+        <p>32-051 Jaśkowice</p>
+        <p class="text-warning">tel. (12)-270-68-88</p>
+      </div>
+      <div class="col-3">
+        <h3>Menu</h3>
+        <p>
+          <a routerLink="['home']" class="text-light">Strona główna</a> |
+          <a href="https://pl-pl.facebook.com/pages/category/Community-Organization/OSP-Jaśkowice-KSRG-1119049648113885/"
+             class="text-light"
+             target="_blank"
+             rel="noopener noreferrer">Aktualności</a>
+        </p>
+        <p>
+          <a routerLink="['equipment']" class="text-light">Sprzęt</a> |
+          <a routerLink="['history']" class="text-light">Historia</a>
+        </p>
+        <p>
+          <a routerLink="['gallery']" class="text-light">Galeria</a> |
+          <a routerLink="['crew']" class="text-light">Członkowie</a>
+        </p>
+      </div>
+      <div class="col-3 text-muted">
+        <h4>Projekt i wykonanie</h4>
+        <p>Tomasz Morek</p>
+        <p>email: <span class="font-italic">t.morek@gmail.com</span></p>
+      </div>
+    </div>
   </div>
 </footer>
