@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 import { HomeComponent } from './home/home.component';
+import { EquipmentComponent } from './equipment/equipment.component';
+import { HistoryComponent } from './history/history.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { StaffComponent } from './staff/staff.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FbWidgetComponent,
-    HomeComponent
+    HomeComponent,
+    EquipmentComponent,
+    HistoryComponent,
+    GalleryComponent,
+    StaffComponent
   ],
   imports: [
     BrowserModule,

@@ -22,25 +22,26 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto text-uppercase">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Strona główna
-            <span class="sr-only">(current)</span>
-          </a>
+        <li class="nav-item">
+          <a [routerLink]="''" class="nav-link">Strona główna</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Aktualności</a>
+          <a href="https://pl-pl.facebook.com/pages/category/Community-Organization/OSP-Jaśkowice-KSRG-1119049648113885/"
+             class="nav-link"
+             target="_blank"
+             rel="noopener noreferrer">Aktualności</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sprzęt</a>
+          <a [routerLink]="'equipment'" class="nav-link">Sprzęt</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Historia</a>
+          <a [routerLink]="'history'" class="nav-link">Historia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Galeria</a>
+          <a [routerLink]="'gallery'" class="nav-link">Galeria</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Członkowie</a>
+          <a [routerLink]="'staff'" class="nav-link">Członkowie</a>
         </li>
       </ul>
     </div>
@@ -63,7 +64,7 @@
 <router-outlet></router-outlet>
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
+<footer class="py-5 mt-4 bg-dark">
   <div class="container">
     <div class="row text-white">
       <div class="col-3">
@@ -71,8 +72,8 @@
           <img id="osp-logo-footer" class="mr-1" [src]="'assets/images/osp-logo.png'">
           OSP
         </h3>
-        <p>Copyright &copy; {{getYear()}} OSP Jaśkowice</p>
-        <p>All rights reserved</p>
+        <p>&copy; {{getYear()}} OSP Jaśkowice</p>
+        <p>Wszelkie prawa zastrzeżone</p>
       </div>
       <div class="col-3">
         <h3>Kontakt</h3>
@@ -83,19 +84,19 @@
       <div class="col-3">
         <h3>Menu</h3>
         <p>
-          <a routerLink="['home']" class="text-light">Strona główna</a> |
+          <a [routerLink]="'home'" class="text-light">Strona główna</a> |
           <a href="https://pl-pl.facebook.com/pages/category/Community-Organization/OSP-Jaśkowice-KSRG-1119049648113885/"
              class="text-light"
              target="_blank"
              rel="noopener noreferrer">Aktualności</a>
         </p>
         <p>
-          <a routerLink="['equipment']" class="text-light">Sprzęt</a> |
-          <a routerLink="['history']" class="text-light">Historia</a>
+          <a [routerLink]="'equipment'" class="text-light">Sprzęt</a> |
+          <a [routerLink]="'history'" class="text-light">Historia</a>
         </p>
         <p>
-          <a routerLink="['gallery']" class="text-light">Galeria</a> |
-          <a routerLink="['crew']" class="text-light">Członkowie</a>
+          <a [routerLink]="'gallery'" class="text-light">Galeria</a> |
+          <a [routerLink]="'crew'" class="text-light">Członkowie</a>
         </p>
       </div>
       <div class="col-3 text-muted">
