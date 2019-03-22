@@ -5,6 +5,7 @@ import {EquipmentComponent} from "./equipment/equipment.component";
 import {HistoryComponent} from "./history/history.component";
 import {GalleryComponent} from "./gallery/gallery.component";
 import {StaffComponent} from "./staff/staff.component";
+import {ContactComponent} from "./contact/contact.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'history', component: HistoryComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'staff', component: StaffComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' } // this path must be the last one
 ];
 
