@@ -1,0 +1,118 @@
+{
+  "management": [
+    {
+      "position": "Prezes",
+      "name": "Krzysztof Guściora",
+      "image": "krzysztof_gusciora.jpg"
+    },
+    {
+      "position": "V-ce Prezes Naczelnik",
+      "name": "Dominik Waga",
+      "image": "dominik_waga.jpg"
+    },
+    {
+      "position": "V-ce Prezes",
+      "name": "Michał Michałek",
+      "image": "michal_michalek.jpg"
+    },
+    {
+      "position": "Zastępca Naczelnika",
+      "name": "Krzysztof Piszczek",
+      "image": "krzysztof_piszczek.jpg"
+    },
+    {
+      "position": "Skarbnik",
+      "name": "Józef Przewoźniak",
+      "image": "jozef_przewozniak.jpg"
+    },
+    {
+      "position": "Sekretarz",
+      "name": "Amadeusz Antos",
+      "image": "amadeusz_antos.jpg"
+    },
+    {
+      "position": "Gospodarz",
+      "name": "Tomasz Kowalczyk",
+      "image": "tomasz_kowalczyk.jpg"
+    }
+  ],
+  "committee": [
+    {
+      "position": "Przewodniczący Komisji Rewizyjnej",
+      "name": "Jacek Kowalówka",
+      "image": "jacek_kowalowka.jpg"
+    },
+    {
+      "position": "Sekretarz Komisji Rewizyjnej",
+      "name": "Rafał Grzebinoga",
+      "image": "rafal_grzebinoga.jpg"
+    },
+    {
+      "position": "Członek Komisji Rewizyjnej",
+      "name": "Mateusz Klimowski",
+      "image": "mateusz_klimowski.jpg"
+    }
+  ],
+  "crew": [
+    {
+      "name": "Angelika Dudek",
+      "image": "andzelina_dudek.jpg"
+    },
+    {
+      "name": "Angelika Waga",
+      "image": "andzelina_waga.jpg"
+    },
+    {
+      "name": "Artur Waga",
+      "image": "artur_waga.jpg"
+    },
+    {
+      "name": "Edward Nowak",
+      "image": "edward_nowak.jpg"
+    },
+    {
+      "name": "Grzegorz Kot",
+      "image": "grzegorz_kot.jpg"
+    },
+    {
+      "name": "Jarosław Czubaj",
+      "image": "jaroslaw_czubaj.jpg"
+    },
+    {
+      "name": "Kamil Grzesiak",
+      "image": "kamil_grzesiak.jpg"
+    },
+    {
+      "name": "Klaudia Morek",
+      "image": "klaudia_morek.jpg"
+    },
+    {
+      "name": "Mieczysław Czubaj",
+      "image": "mieczyslaw_czubaj.jpg"
+    },
+    {
+      "name": "Paulina Orzechowska",
+      "image": "paulina_orzechowska.jpg"
+    },
+    {
+      "name": "Paweł Orzechowski",
+      "image": "pawel_orzechowski.jpg"
+    },
+    {
+      "name": "Paweł Przewoźniak",
+      "image": "pawel_przewozniak.jpg"
+    },
+    {
+      "name": "Piotr Dudek",
+      "image": "piotr_dudek.jpg"
+    },
+    {
+      "name": "Tadeusz Kowalówka",
+      "image": "tadeusz_kowalowka.jpg"
+    },
+    {
+      "name": "Tomasz Czubaj",
+      "image": "tomasz_czubaj.jpg"
+    }
+  ]
+}

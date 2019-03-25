@@ -1,7 +1,39 @@
 <div class="container">
+  <h2>Zarząd</h2>
+  <hr>
   <div class="row">
-    <div class="col-12 alert alert-danger">
-      <h4 class="alert-heading">Strona w budowie!</h4>
+    <div class="col-md-4" *ngFor="let member of management">
+      <div class="card my-3 bg-dark text-white">
+        <img class="card-img-top" src="../../assets/images/staff/{{member.image}}">
+        <div class="card-body text-center">
+          <p class="card-text lead text-warning">{{member.position}}</p>
+          <h4 class="card-title">{{member.name}}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="mt-4">Komisja rewizyjna</h2>
+  <hr>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let member of committee">
+      <div class="card my-3 bg-dark text-white">
+        <img class="card-img-top" src="../../assets/images/staff/{{member.image}}">
+        <div class="card-body text-center">
+          <h4 class="card-title">{{member.name}}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="mt-4">Strażacy</h2>
+  <hr>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let member of crew">
+      <div class="card my-3 bg-dark text-white">
+        <img class="card-img-top" src="../../assets/images/staff/{{member.image}}">
+        <div class="card-body text-center">
+          <h4 class="card-title">{{member.name}}</h4>
+        </div>
+      </div>
     </div>
   </div>
 </div>
