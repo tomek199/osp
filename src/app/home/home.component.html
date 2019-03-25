@@ -18,7 +18,7 @@
 <header id="banner-fire" class="bg-danger py-5 mb-5">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
-      <div class="col-lg-12 text-light">
+      <div class="col-lg-12 text-light text-center">
         <h3>
           Skontaktuj się z nami w razie zagrożenia
           <span class="text-danger">(12)-270-68-88</span>
@@ -39,7 +39,7 @@
           <p class="card-text">Opis posiadanego sprzętu</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-danger">Więcej</a>
+          <a [routerLink]="'equipment'" class="btn btn-danger">Więcej</a>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@
           <p class="card-text">Historia OSP Jaśkowice</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-danger">Więcej</a>
+          <a [routerLink]="'history'" class="btn btn-danger">Więcej</a>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@
           <p class="card-text">Galeria zdjęć i filmy z ostatnich wydarzeń</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-danger">Więcej</a>
+          <a [routerLink]="'gallery'" class="btn btn-danger">Więcej</a>
         </div>
       </div>
     </div>
