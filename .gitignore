@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# custom
+src/assets/images/gallery/
+
 # compiled output
 /dist
 /tmp

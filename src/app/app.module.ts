@@ -13,6 +13,7 @@ import { StaffComponent } from './staff/staff.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { GalleryModule } from "@ngx-gallery/core";
+import { GalleryDetailComponent } from './gallery-detail/gallery-detail.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GalleryModule } from "@ngx-gallery/core";
     HistoryComponent,
     GalleryComponent,
     StaffComponent,
-    ContactComponent
+    ContactComponent,
+    GalleryDetailComponent
   ],
   imports: [
     BrowserModule,
