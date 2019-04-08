@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { LIGHTBOX_CONFIG, LightboxModule} from '@ngx-gallery/lightbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,9 @@ import { HistoryComponent } from './history/history.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { StaffComponent } from './staff/staff.component';
 import { ContactComponent } from './contact/contact.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { GalleryModule } from "@ngx-gallery/core";
+import { GalleryDetailComponent } from './gallery-detail/gallery-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +24,23 @@ import { ContactComponent } from './contact/contact.component';
     HistoryComponent,
     GalleryComponent,
     StaffComponent,
-    ContactComponent
+    ContactComponent,
+    GalleryDetailComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    GalleryModule.withConfig({
+      loadingStrategy: 'lazy',
+      loadingMode: 'indeterminate',
+      loop: true
+    }),
+    LightboxModule.withConfig({
+      panelClass: 'fullscreen'
+    })
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
