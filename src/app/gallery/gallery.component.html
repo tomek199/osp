@@ -9,7 +9,7 @@
         <p class="text-muted">
           <span class="badge badge-light">{{gallery.count}}</span> zdjęć<span *ngIf="gallery.date">, {{gallery.date}}</span>
         </p>
-        <a [routerLink]="['/', 'gallery-detail', gallery.id]" class="btn btn-danger">
+        <a [routerLink]="['/', 'gallery', gallery.id]" class="btn btn-danger">
           Zobacz
         </a>
       </div>
