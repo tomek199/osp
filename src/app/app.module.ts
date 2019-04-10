@@ -14,6 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { GalleryModule } from "@ngx-gallery/core";
 import { GalleryDetailComponent } from './gallery-detail/gallery-detail.component';
+import { VideosComponent } from './videos/videos.component';
+import { OcticonDirective } from "./core/octicon/octicon.directive";
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { GalleryDetailComponent } from './gallery-detail/gallery-detail.componen
     GalleryComponent,
     StaffComponent,
     ContactComponent,
-    GalleryDetailComponent
+    GalleryDetailComponent,
+    VideosComponent,
+    OcticonDirective
   ],
   imports: [
     BrowserModule,

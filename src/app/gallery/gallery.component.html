@@ -1,5 +1,8 @@
 <div class="container">
-  <h2>Galeria</h2>
+  <h2>
+    Galeria
+    <a [routerLink]="'/videos'" class="btn btn-dark btn-sm float-right">Przejdź do filmów ></a>
+  </h2>
   <hr>
   <div class="card-columns">
     <div class="card" *ngFor="let gallery of galleries">
