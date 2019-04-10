@@ -38,10 +38,15 @@
           <a [routerLink]="'history'" class="nav-link">Historia</a>
         </li>
         <li class="nav-item">
-          <a [routerLink]="'gallery'" class="nav-link">Galeria</a>
-        </li>
-        <li class="nav-item">
           <a [routerLink]="'staff'" class="nav-link">Członkowie</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="galleryNavbarDropdown"
+             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
+          <div class="dropdown-menu" aria-labelledby="galleryNavbarDropdown">
+            <a [routerLink]="'gallery'" class="dropdown-item">Zdjęcia</a>
+            <a [routerLink]="'videos'" class="dropdown-item">Filmy</a>
+          </div>
         </li>
         <li class="nav-item">
           <a [routerLink]="'contact'" class="nav-link">Kontakt</a>
@@ -95,11 +100,12 @@
         </p>
         <p>
           <a [routerLink]="'equipment'" class="text-light">Sprzęt</a> |
-          <a [routerLink]="'history'" class="text-light">Historia</a>
+          <a [routerLink]="'history'" class="text-light">Historia</a> |
+          <a [routerLink]="'staff'" class="text-light">Członkowie</a>
         </p>
         <p>
-          <a [routerLink]="'gallery'" class="text-light">Galeria</a> |
-          <a [routerLink]="'staff'" class="text-light">Członkowie</a>
+          <a [routerLink]="'gallery'" class="text-light">Zdjęcia</a> |
+          <a [routerLink]="'videos'" class="text-light">Filmy</a>
         </p>
       </div>
       <div class="col-3 text-muted">
