@@ -15,8 +15,8 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
-    <a [routerLink]="'home'" class="navbar-brand">
-      <img id="osp-logo" class="mr-1" [src]="'assets/images/osp-logo.png'">
+    <a routerLink="home" class="navbar-brand">
+      <img id="osp-logo" class="mr-1" src="assets/images/osp-logo.png" alt="OSP">
       <span>OSP Jaśkowice</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,34 +25,27 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto text-uppercase">
         <li class="nav-item">
-          <a [routerLink]="''" class="nav-link">Strona główna</a>
+          <a routerLink="" class="nav-link">Strona główna</a>
         </li>
         <li class="nav-item">
           <a href="https://pl-pl.facebook.com/pages/category/Community-Organization/OSP-Jaśkowice-KSRG-1119049648113885/"
              class="nav-link"
              target="_blank"
-             rel="noopener noreferrer">Aktualności</a>
-        </li>
-        <!-- TODO -->
-        <!--<li class="nav-item">-->
-          <!--<a [routerLink]="'equipment'" class="nav-link">Sprzęt</a>-->
-        <!--</li>-->
-        <li class="nav-item">
-          <a [routerLink]="'history'" class="nav-link">Historia</a>
+             rel="noopener noreferrer">
+            Aktualności
+          </a>
         </li>
         <li class="nav-item">
-          <a [routerLink]="'staff'" class="nav-link">Członkowie</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="galleryNavbarDropdown"
-             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galeria</a>
-          <div class="dropdown-menu" aria-labelledby="galleryNavbarDropdown">
-            <a [routerLink]="'gallery'" class="dropdown-item">Zdjęcia</a>
-            <a [routerLink]="'videos'" class="dropdown-item">Filmy</a>
-          </div>
+          <a routerLink="history" class="nav-link">Historia</a>
         </li>
         <li class="nav-item">
-          <a [routerLink]="'contact'" class="nav-link">Kontakt</a>
+          <a routerLink="staff" class="nav-link">Członkowie</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="videos" class="nav-link">Filmy</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="contact" class="nav-link">Kontakt</a>
         </li>
       </ul>
     </div>
@@ -80,7 +73,7 @@
     <div class="row text-white">
       <div class="col-3">
         <h3>
-          <img id="osp-logo-footer" class="mr-1" [src]="'assets/images/osp-logo.png'">
+          <img id="osp-logo-footer" class="mr-1" src="assets/images/osp-logo.png" alt="OSP">
           OSP
         </h3>
         <p>&copy; {{getYear()}} OSP Jaśkowice</p>
@@ -95,20 +88,16 @@
       <div class="col-3">
         <h3>Menu</h3>
         <p>
-          <a [routerLink]="'home'" class="text-light">Strona główna</a> |
+          <a routerLink="home" class="text-light">Strona główna</a> |
           <a href="https://pl-pl.facebook.com/pages/category/Community-Organization/OSP-Jaśkowice-KSRG-1119049648113885/"
              class="text-light"
              target="_blank"
              rel="noopener noreferrer">Aktualności</a>
         </p>
         <p>
-          <a [routerLink]="'equipment'" class="text-light">Sprzęt</a> |
-          <a [routerLink]="'history'" class="text-light">Historia</a> |
-          <a [routerLink]="'staff'" class="text-light">Członkowie</a>
-        </p>
-        <p>
-          <a [routerLink]="'gallery'" class="text-light">Zdjęcia</a> |
-          <a [routerLink]="'videos'" class="text-light">Filmy</a>
+          <a routerLink="history" class="text-light">Historia</a> |
+          <a routerLink="staff" class="text-light">Członkowie</a> |
+          <a routerLink="videos" class="text-light">Filmy</a>
         </p>
       </div>
       <div class="col-3 text-muted">

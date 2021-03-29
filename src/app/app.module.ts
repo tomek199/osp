@@ -6,14 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 import { HomeComponent } from './home/home.component';
-import { EquipmentComponent } from './equipment/equipment.component';
 import { HistoryComponent } from './history/history.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { StaffComponent } from './staff/staff.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { GalleryModule } from "@ngx-gallery/core";
-import { GalleryDetailComponent } from './gallery-detail/gallery-detail.component';
 import { VideosComponent } from './videos/videos.component';
 import { OcticonDirective } from "./core/octicon/octicon.directive";
 
@@ -22,12 +19,9 @@ import { OcticonDirective } from "./core/octicon/octicon.directive";
     AppComponent,
     FbWidgetComponent,
     HomeComponent,
-    EquipmentComponent,
     HistoryComponent,
-    GalleryComponent,
     StaffComponent,
     ContactComponent,
-    GalleryDetailComponent,
     VideosComponent,
     OcticonDirective
   ],
