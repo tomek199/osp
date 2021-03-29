@@ -6,14 +6,14 @@
       "image": "krzysztof_gusciora.jpg"
     },
     {
-      "position": "V-ce Prezes Naczelnik",
+      "position": "Wiceprezes Naczelnik",
       "name": "Dominik Waga",
       "image": "dominik_waga.jpg"
     },
     {
-      "position": "V-ce Prezes",
-      "name": "Michał Michałek",
-      "image": "michal_michalek.jpg"
+      "position": "Wiceprezes",
+      "name": "Angelika Waga",
+      "image": "andzelina_waga.jpg"
     },
     {
       "position": "Zastępca Naczelnika",
@@ -22,8 +22,8 @@
     },
     {
       "position": "Skarbnik",
-      "name": "Józef Przewoźniak",
-      "image": "jozef_przewozniak.jpg"
+      "name": "Paweł Orzechowski",
+      "image": "pawel_orzechowski.jpg"
     },
     {
       "position": "Sekretarz",
@@ -32,23 +32,23 @@
     },
     {
       "position": "Gospodarz",
-      "name": "Tomasz Kowalczyk",
-      "image": "tomasz_kowalczyk.jpg"
+      "name": "Artur Waga",
+      "image": "artur_waga.jpg"
     }
   ],
   "committee": [
     {
-      "position": "Przewodniczący Komisji Rewizyjnej",
+      "position": "Przewodniczący",
       "name": "Jacek Kowalówka",
       "image": "jacek_kowalowka.jpg"
     },
     {
-      "position": "Sekretarz Komisji Rewizyjnej",
+      "position": "Sekretarz",
       "name": "Rafał Grzebinoga",
       "image": "rafal_grzebinoga.jpg"
     },
     {
-      "position": "Członek Komisji Rewizyjnej",
+      "position": "Członek",
       "name": "Mateusz Klimowski",
       "image": "mateusz_klimowski.jpg"
     }
@@ -59,12 +59,8 @@
       "image": "andzelina_dudek.jpg"
     },
     {
-      "name": "Angelika Waga",
-      "image": "andzelina_waga.jpg"
-    },
-    {
-      "name": "Artur Waga",
-      "image": "artur_waga.jpg"
+      "name": "Tomasz Kowalczyk",
+      "image": "tomasz_kowalczyk.jpg"
     },
     {
       "name": "Edward Nowak",
@@ -95,8 +91,8 @@
       "image": "paulina_orzechowska.jpg"
     },
     {
-      "name": "Paweł Orzechowski",
-      "image": "pawel_orzechowski.jpg"
+      "name": "Józef Przewoźniak",
+      "image": "jozef_przewozniak.jpg"
     },
     {
       "name": "Paweł Przewoźniak",
